@@ -9,8 +9,9 @@ import Main from './components/Main';
 class App extends Component {
   render() {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
+      // <div style={{height: '300px', position: 'relative'}}>
+      <div>
+        <Layout fixedHeader>
           <Header className="header-color" title="Title" scroll>
             <Navigation>
               <Link to="/about">About</Link>
