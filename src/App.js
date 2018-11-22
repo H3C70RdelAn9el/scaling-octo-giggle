@@ -12,7 +12,7 @@ class App extends Component {
       // <div style={{height: '300px', position: 'relative'}}>
       <div>
         <Layout fixedHeader>
-          <Header className="header-color" title="Title" scroll>
+          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Portfolio</Link>} scroll>
             <Navigation>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>

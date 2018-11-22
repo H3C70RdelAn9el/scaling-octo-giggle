@@ -1,0 +1,25 @@
+.resume-right-col {
+  background-color: rgb(35, 39, 31);
+  color: white;
+  text-align: center;
+  font-family: 'Trirong', serif;
+  padding: 2em;
+}
+
+.resume-left-col {
+  text-align: center;
+}
+
+.resume-left-col h2 {
+  padding-top: 5px;
+  font-family: 'Trirong', serif;
+}
+
+.resume-left-col h4,
+.resume-left-col h6 {
+  font-family: 'Trirong', serif;
+}
+
+.resume-left-col hr {
+  color: #045604;
+}

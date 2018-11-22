@@ -9,6 +9,10 @@ body {
   min-height: 100%;
 }
 
+* {
+  font-family: 'Merriweather', serif;
+}
+
 .header-color {
   background: #000000;
   /* fallback for old browsers */
@@ -89,18 +93,19 @@ body {
   z-index: -1;
 } */
 
-.projects-grid{
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
+.projects-grid {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 /* Contact Page */
-.contact-body{
+
+.contact-body {
   margin: auto;
   background-color: #045604;
   justify-content: center;
@@ -108,14 +113,14 @@ body {
   left: 0px;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
   width: 100%;
 }
 
 .contact-grid h2 {
-  font-family: 'Merriweather',serif;
+  font-family: 'Merriweather', serif;
 }
 
 .contact-grid p {
